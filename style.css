@@ -1,0 +1,181 @@
+body{
+	background: #D3D3D3; 
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+   text-align: center;
+    margin: 0 20%;
+   
+}
+
+a:link {
+  color: blue;
+  font-size:30px;
+  text-align: center;
+  text-transform:uppercase;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+c:link {
+  color: blue;
+  font-size:20px;
+  text-align: center;
+  text-transform:uppercase;
+  background-color: transparent;
+  text-decoration: none;
+}
+c:visited {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+c:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+c:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #8B0000;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #B22222;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #B22222;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#canvas-wrap { position:relative }
+
+p.neat-word {
+    text-align: center;
+    font-size:30px;
+    color: blue;
+    text-transform:uppercase;
+}
+
+.left {
+  position: absolute;
+  left: 10px;
+  width: 300px;
+  font-size:20px;
+  color: blue;
+  text-transform:uppercase;
+  border: 3px solid #73AD21;
+}
+
+#circle0 {
+      position: relative;
+      background-color: #fff;
+      margin: 10px auto;
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+    }
+    
+#circle1 {
+      position: relative;
+      background-color: #fff;
+      margin: 5px auto;
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+    }
+    
+#circle2 {
+      position: relative;
+      background-color: #fff;
+      margin: 5px auto;
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+    }
+    
+#circle3 {
+      position: relative;
+      background-color: #fff;
+      margin: 5px auto;
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+    }
+#text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    color: #fff;
+}
+
